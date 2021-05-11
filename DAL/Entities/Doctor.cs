@@ -30,6 +30,6 @@ namespace DAL.Entities
         public int HospitalId { get; set; }
         public virtual Hospital Hospital { get; set; }
 
-        public virtual List<Journal> Records { get; set; }
+        public virtual List<Record> Records { get; set; }
     }
 }
